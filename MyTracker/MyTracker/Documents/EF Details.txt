@@ -1,0 +1,10 @@
+﻿{
+  "Packages": [
+				dotnet tool install --global dotnet-ef,
+				Microsoft.EntityFrameworkCore,
+				Microsoft.EntityFrameworkCore.Design,
+				Microsoft.EntityFrameworkCore.SqlServer,
+				Microsoft.EntityFrameworkCore.Tools
+			 ],
+  "Command": "Scaffold-DbContext "Server=ANAND_LAPTOP;Database=Tracker; Integrated Security=True;Encrypt=false;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models\EntityModels -ContextDir Models\EntityModels\Context -Context TrackerContext"
+}
