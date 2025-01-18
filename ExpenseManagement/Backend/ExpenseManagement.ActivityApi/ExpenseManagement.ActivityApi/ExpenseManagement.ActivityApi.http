@@ -1,0 +1,6 @@
+@ExpenseManagement.ActivityApi_HostAddress = http://localhost:5159
+
+GET {{ExpenseManagement.ActivityApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

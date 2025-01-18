@@ -1,0 +1,6 @@
+@ExpenseManagement.Authentication_HostAddress = http://localhost:5049
+
+GET {{ExpenseManagement.Authentication_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

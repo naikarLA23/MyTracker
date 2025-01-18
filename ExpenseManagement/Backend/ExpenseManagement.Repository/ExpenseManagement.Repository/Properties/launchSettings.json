@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "ExpenseManagement.Repository": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
