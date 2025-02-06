@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpenseManagement.GroupApi", "ExpenseManagement.GroupApi\ExpenseManagement.GroupApi.csproj", "{9B5D430D-FDFC-48DF-821F-2191D275F45F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpenseManagement.Repository", "..\ExpenseManagement.Repository\ExpenseManagement.Repository\ExpenseManagement.Repository.csproj", "{01478AD7-D41A-445C-A04E-9ECE8376B43C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{9B5D430D-FDFC-48DF-821F-2191D275F45F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B5D430D-FDFC-48DF-821F-2191D275F45F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B5D430D-FDFC-48DF-821F-2191D275F45F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01478AD7-D41A-445C-A04E-9ECE8376B43C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01478AD7-D41A-445C-A04E-9ECE8376B43C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01478AD7-D41A-445C-A04E-9ECE8376B43C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01478AD7-D41A-445C-A04E-9ECE8376B43C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

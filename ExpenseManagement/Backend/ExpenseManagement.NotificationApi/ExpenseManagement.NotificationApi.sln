@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpenseManagement.NotificationApi", "ExpenseManagement.NotificationApi\ExpenseManagement.NotificationApi.csproj", "{0327CC64-4401-4C98-A569-60378AA6CF41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpenseManagement.Repository", "..\ExpenseManagement.Repository\ExpenseManagement.Repository\ExpenseManagement.Repository.csproj", "{A8200952-AB01-4833-8082-A044CEB5B730}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0327CC64-4401-4C98-A569-60378AA6CF41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0327CC64-4401-4C98-A569-60378AA6CF41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0327CC64-4401-4C98-A569-60378AA6CF41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0327CC64-4401-4C98-A569-60378AA6CF41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8200952-AB01-4833-8082-A044CEB5B730}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8200952-AB01-4833-8082-A044CEB5B730}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8200952-AB01-4833-8082-A044CEB5B730}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8200952-AB01-4833-8082-A044CEB5B730}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

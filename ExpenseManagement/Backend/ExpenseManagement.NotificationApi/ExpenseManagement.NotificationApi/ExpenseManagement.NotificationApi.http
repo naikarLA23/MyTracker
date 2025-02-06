@@ -1,0 +1,6 @@
+@ExpenseManagement.NotificationApi_HostAddress = http://localhost:5079
+
+GET {{ExpenseManagement.NotificationApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
